@@ -166,7 +166,7 @@ body {
   justify-content: space-around;
   text-decoration: none;
   text-align: center;
-  color: #ff83cb;
+  color: #ff788b;
   font-weight: 700;
   font-size: 24px;
   margin: 0 10px;
@@ -178,14 +178,14 @@ body {
   margin-right: 15px;
 }
 .menu a:hover {
-  background-color: #ff83cb;
+  background-color: #ff788b;
   color: #fff;
   border-radius: 30px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .fa-solid.fa-bars {
-  color: #ff83cb;
+  color: #ff788b;
   font-size: 30px;
   display: none;
 }
@@ -308,7 +308,7 @@ body {
 }
 .banner_slogan a:hover {
   background-color: rgba(255, 255, 255, 0.7);
-  border: 5px solid #ff83cb;
+  border: 5px solid #ff788b;
   box-sizing: border-box;
 }
 @media (max-width: 567px) {
@@ -399,7 +399,7 @@ section .wave.wave4 {
 }
 h2 {
   display: block;
-  background-color: #ff83cb;
+  background-color: #ff788b;
   padding: 20px 25px;
   text-align: center;
   font-weight: 400;
@@ -417,7 +417,7 @@ h2 {
   text-align: center;
 }
 .tech span {
-  color: #ff83cb;
+  color: #ff788b;
 }
 .tech p {
   font-size: 28px;
@@ -463,7 +463,7 @@ h2 {
   font-size: 32px;
   line-height: 50px;
   text-align: center;
-  color: #ff83cb;
+  color: #ff788b;
 }
 .features p {
   font-weight: 400;
@@ -474,7 +474,7 @@ h2 {
 }
 
 .features span {
-  color: #ff83cb;
+  color: #ff788b;
   font-weight: 500;
 }
 @media (max-width: 576px) {
@@ -505,14 +505,14 @@ h2 {
   width: 80%;
 }
 .desease span {
-  color: #ff83cb;
+  color: #ff788b;
   font-weight: bold;
 }
 .desease-title {
   font-weight: 600;
   font-size: 32px;
   line-height: 50px;
-  color: #ff83cb;
+  color: #ff788b;
 }
 
 .desease-content {
@@ -639,7 +639,7 @@ h2 {
   font-weight: 700;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 15px 20px;
-  background-color: #ff83cb;
+  background-color: #ff788b;
   margin-right: 20px;
   line-height: 24px;
   letter-spacing: 0.1em;
@@ -657,7 +657,7 @@ h2 {
   line-height: 50px;
   text-align: center;
   letter-spacing: 0.4em;
-  color: #ff83cb;
+  color: #ff788b;
 }
 .line {
   margin: 20px 0 30px 0;
@@ -677,7 +677,7 @@ h2 {
   left: 0px;
   background: linear-gradient(
     318.75deg,
-    #ff83cb -0.13%,
+    #ff788b -0.13%,
     rgba(255, 255, 255, 0.00312519) 78.21%,
     rgba(217, 217, 217, 0) 78.22%
   );
@@ -688,7 +688,7 @@ h2 {
   justify-content: space-between;
   background: linear-gradient(
     318.75deg,
-    #ff83cb -0.13%,
+    #ff788b -0.13%,
     rgba(255, 255, 255, 0.00312519) 78.21%,
     rgba(217, 217, 217, 0) 78.22%
   );
@@ -884,7 +884,7 @@ h2 {
     rgba(255, 255, 255, 0.00312519) 78.21%,
     rgba(217, 217, 217, 0) 78.22%
   ); */
-  background: #ff83cb;
+  background: #ff788b;
 }
 .members li:hover p {
   background-color: rgba(255, 255, 255, 0.2);
@@ -904,7 +904,7 @@ h2 {
   font-size: 44px;
   line-height: 50px;
   letter-spacing: 0.4em;
-  color: #ff83cb;
+  color: #ff788b;
   margin-bottom: 38px;
   margin-top: 20px;
 }
@@ -937,7 +937,7 @@ h2 {
   background-image: url("./img/政府單位.png");
 }
 .team-contnet span {
-  color: #ff83cb;
+  color: #ff788b;
   font-weight: bold;
 }
 @media (max-width: 576px) {
@@ -980,7 +980,7 @@ h2 {
   font-size: 44px;
   line-height: 50px;
   letter-spacing: 0.4em;
-  color: #ff83cb;
+  color: #ff788b;
   margin-bottom: 38px;
   margin-top: 20px;
   text-align: center;
@@ -1005,7 +1005,7 @@ h2 {
   transition: all 1s;
 }
 .team-logo:hover {
-  box-shadow: 0 2px 50px rgba(180, 0, 99, 0.8);
+  box-shadow: 0 2px 50px #ff788b;
 }
 @media (max-width: 578px) {
   .team-logo {
@@ -1030,6 +1030,8 @@ h2 {
 }
 .go-top img {
   width: 50px;
+  cursor: pointer;
+  border-radius: 50%;
 }
 .go-top {
   position: fixed;
@@ -1037,4 +1039,7 @@ h2 {
   bottom: 5px;
   z-index: 2000;
   opacity: 0.6;
+}
+.go-top img:hover {
+  box-shadow: 2px 2px 2px 1px #ff788b;
 }
